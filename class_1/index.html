@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Full Stack Course</title>
+    <meta> This is onr of the best course for full stack </meta>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <style>
+
+    body{
+      
+      padding:20px;
+      margin:10px;
+    }
+
+
+    .course {
+      background-color: red;
+      border: 3px solid black;
+      width:400px;
+      margin: 10px;
+      padding: 10px;
+      position: relative;
+      /* top: 0px; */
+    }
+    .banner{
+      /* position: fixed;
+      top: 0px;
+      right: 5px; */
+    }
+    .navbar{
+      background-color: red;
+      position: static;
+      top: 0px;
+    }
+    .message{
+      /* background-color: pink;
+      position: sticky;
+      top: 0px; */
+    }
+
+    button{
+      position: absolute;
+      top: 0px;
+      right: 0px;
+    }
+
+
+  </style>
+
+  <body>
+    <h1>Course</h1>
+
+    <p class="navbar">Navbar</p>
+
+    <p class="message"> This is some important message </p>
+
+    <div class="course" style="background-color: pink;">
+
+      <h2>HTML</h2>
+
+      <p>Its a markup language</p>
+      <button> Buy course </button>
+      
+    </div>
+    <div class="course">
+      <h2>CSS</h2>
+      <p>Its a styling language</p>
+    </div>
+    <div class="course">
+      <h2>Javascript</h2>
+      <p>Its a scripting language</p>
+    </div>
+    <div class="course">
+      <h2>NodeJs</h2>
+      <p>Its a server side language</p>
+    </div>
+
+    <form>
+      <label for="firstName"> First Name: </label>
+      <input id="firstName" type="text" />
+      <label for="lastName"> Last Name: </label>
+      <input id="lastName" type="text" />
+      <br />
+
+      <div style="color: blue">
+        <input
+          type="radio"
+          id="react"
+          name="favourateCourse"
+          value="React JS"
+        />
+        <!-- <span>React</span> -->
+        <label for="react">React</label>
+
+        <input
+          type="radio"
+          id="mongoDB"
+          name="favourateCourse"
+          value="mongo DB"
+        />
+        <label for="mongoDB">mongoDB</label>
+
+        <input type="radio" id="nodeJS" name="favourateCourse" value="NodeJS" />
+        <label for="nodeJS">nodeJS</label>
+
+        <input
+          type="radio"
+          id="javascript"
+          name="favourateCourse"
+          value="react"
+        />
+        <label for="javascript">javascript</label>
+      </div>
+
+      <div>
+        <input
+          type="checkbox"
+          id="react"
+          name="favourateCourse1"
+          value="React JS"
+        />
+        <!-- <span>React</span> -->
+        <label for="react">React</label>
+
+        <input
+          type="checkbox"
+          id="mongoDB"
+          name="favourateCourse2"
+          value="mongo DB"
+        />
+        <label for="mongoDB">mongoDB</label>
+
+        <input
+          type="checkbox"
+          id="nodeJS"
+          name="favourateCourse3"
+          value="NodeJS"
+        />
+        <label for="nodeJS">nodeJS</label>
+
+        <input
+          type="checkbox"
+          id="javascript"
+          name="favourateCourse4"
+          value="react"
+        />
+        <label for="javascript">javascript</label>
+      </div>
+    </form>
+  </body>
+</html>
